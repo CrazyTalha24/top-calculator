@@ -6,10 +6,16 @@
     box-sizing: border-box;
 }
 
+html {
+    height: 100%;
+}
+
 body {
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 40px;
     font-family: "Ubuntu";
     background-color: rgb(48, 48, 48);
 }
@@ -35,7 +41,6 @@ body {
     align-items: end;
     padding-right: 10px;
     padding-bottom: 10px;
-    /* background-color: aqua; */
     border-bottom: 1px solid gray;
 }
 
@@ -76,4 +81,47 @@ button:hover {
 
 .button-equal {
     background-color: brown;
+}
+
+.text {
+    border: black 1px solid;
+    border-radius: 10px;
+    box-shadow: -10px 10px white;
+    padding: 50px;
+    background-color: yellow;
+    width: 300px;
+    height: auto;
+}
+
+.text:hover {
+    background-color: orange;
+    transition: 0.2s;
+}
+
+.text h1 {
+    padding: 5px;
+    /* margin-bottom: 30px; */
+    border: 1px black dashed;
+}
+
+.text p {
+    font-size: 12px;
+    margin-bottom: 3px;
+}
+
+.text a, text a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.main {
+    margin-bottom: 20px;
+}
+
+.main p {
+    margin-left: 50%;
+    margin-top: 3px;
+    background-color: white;
+    padding: 4px;
+    border-radius: 20px;
 }
